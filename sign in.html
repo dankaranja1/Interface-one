@@ -1,0 +1,58 @@
+
+<!DOCTYPE html> 
+<html lang="en">
+  <head>
+  <div id="newUserPanel" class="panel panel-primary">
+   <div class="panel-heading">Add a New User</div>
+   <div class="panel-body">
+
+      <div id="fgNewUser" class="form-group has-feedback">
+         <label for="vtbxNewUserName" class="col-sm-2 control-label">User name</label>
+         <div class="col-sm-4">
+            <vtbx:ValidatedTextbox  runat="server" ID="vtbxNewUserName" CssClass="form-control" aria-describedby="inputError2Status" />
+            <span class="glyphicon glyphicon-remove form-control-feedback" aria-hidden="true" style="display: none"></span>
+         </div>
+         <div class="col-sm-2"></div>
+         <div class="col-sm-4">
+            <asp:CheckBox runat="server" CssClass="checkbox-inline" ID="cbxNewIsLocked" Text="Account Locked Out" Checked="False" />
+            <asp:CheckBox runat="server" CssClass="checkbox-inline" ID="cbxNewIsApproved" Text="Account Approved" Checked="True" />
+         </div>
+      </div>
+      <div class="form-group has-feedback">
+         <label for="vtbxNewUserPassword" class="col-sm-2 control-label">Password</label>
+         <div class="col-sm-10">
+            <vtbx:ValidatedTextbox  runat="server" ID="vtbxNewUserPassword" CssClass="form-control tbx-new-user-password" />
+            <span class="glyphicon glyphicon-remove form-control-feedback" aria-hidden="true" style="display: none"></span>
+         </div>
+         <div>
+            <asp:Button runat="server" ID="btnGeneratePassword" CssClass="btn btn-default btn-generate-password" Text="Generate Password" />
+            <asp:CheckBox runat="server" ID="cbxIncludeLowerCase" CssClass="checkbox-inline cbx-include-lower-case" Text="Include Lower Case letters" Checked="True" />
+            <asp:CheckBox runat="server" ID="cbxIncludeUpperCase" CssClass="checkbox-inline cbx-include-upper-case" Text="Include Upper Case letters" Checked="True" />
+            <asp:CheckBox runat="server" ID="cbxIncludeNumbers" CssClass="checkbox-inline cbx-include-numbers" Text="Include Numbers" Checked="True" />
+            <asp:CheckBox runat="server" ID="cbxIncludeSpecial" CssClass="checkbox-inline cbx-include-special" Text="Include Special Charactors" Checked="False" />
+            <asp:CheckBox runat="server" ID="cbxEndWithASpecial" CssClass="checkbox-inline cbx-end-with-a-special" Text="Special Charactor at End" Checked="True" />
+         </div>
+      </div>
+      <div id="newEmailFormGroup" class="form-group has-feedback">
+         <label for="vtbxNewUserEmail" class="col-sm-2 control-label">Email</label>
+         <div class="col-sm-10">
+            <div class="input-group">
+               <span class="input-group-addon">@</span>
+               <vtbx:ValidatedTextbox  runat="server" ID="vtbxNewUserEmail" CssClass="form-control" />
+            </div>
+            <span class="glyphicon glyphicon-remove form-control-feedback" aria-hidden="true" style="display: none"></span>
+         </div>
+      </div>
+      <div class="form-group">
+         <label for="vtbxNewUserComment" class="col-sm-2 control-label">Comment</label>
+         <div class="col-sm-10">
+            <vtbx:ValidatedTextbox  runat="server" ID="vtbxNewUserComment" CssClass="form-control" />
+         </div>
+      </div>
+      <div class="form-group">
+         <asp:Button runat="server" ID="btnSaveNewUser" Text="Save New User" CssClass="btn btn-default" />
+      </div>
+   </div>
+</div>
+ </body>
+</html>
