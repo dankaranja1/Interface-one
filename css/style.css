@@ -79,3 +79,33 @@ ul {
   font-size: 10px;
   padding-right: 2.5%;
 }
+#him{
+  float: left;
+  font-size: 10px;
+  padding-top: 3em;
+}
+
+#her{
+  float: center;
+  font-size: 10px;
+  padding-top: 0.17em;
+}
+
+#his{
+  float: right;
+  font-size: 10px;
+  padding-right: 2.5%;
+}
+.btn6 {
+  border-radius: 50%;
+  background-color: rgb(207, 18, 27); 
+  border: none; 
+  color: white; 
+  padding: 12px 16px; 
+  font-size: 16px; 
+  cursor: pointer; 
+}
+
+.btn6:hover {
+  background-color: rgb(185, 5, 14);
+}
