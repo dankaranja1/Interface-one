@@ -1,3 +1,4 @@
+
 #div1{
     padding-top:40px;
     height:600px;
@@ -6,19 +7,22 @@
     margin:40px;
     }
   #div2{
-    height:300px;
+    height:370px;
     width:350px;
     background-color:rgb(177, 189, 11);
     position:relative;
     left:670px;
-    bottom:590px;
+    bottom:641px;
     }
   #div3{
-    height:300px;
+    height:200px;
     width:350px;
     background-color:rgb(3, 46, 6);
     position:relative;
     left:670px;
-    bottom:550px;
+    bottom:610px;
     }
+
+    
+
     
