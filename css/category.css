@@ -1,0 +1,24 @@
+thumbnail.checkout-thumbnail {
+    background: #eee;
+    border:none;
+    max-width: 220px;
+  
+  }
+  .caption.checkout-caption {
+    margin-top: 2px;
+  }
+  .btn.btn-checkout {
+    border-radius: 0;
+    border: none;
+    background: none;
+    margin-top: 30px;
+  }
+  .btn.btn-orange {
+    border: 2px solid orange;
+  }
+  .btn.btn-teal {
+    border: 2px solid teal;
+  }
+  .btn.btn-red {
+    border: 2px solid red;
+  }
