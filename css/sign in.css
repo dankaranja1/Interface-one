@@ -1,0 +1,29 @@
+.navbar{
+  background: rgb(4, 73, 29);
+}
+.nav-item {
+  color: rgb(129, 9, 9);
+}
+ 
+
+.input-group{
+  background-color: #ffffff;
+  max-width: 10px;
+  
+  
+}
+.i{
+  background-color: hotpink;
+}
+.input-group-text{
+  background-color: green;
+
+}
+.footer{
+    background-color: green;
+}
+.footer.h2{
+  color: blue;
+}  
+
+
