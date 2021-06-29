@@ -1,0 +1,148 @@
+<!DOCTYPE html >
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>payment system </title>
+<link rel="stylesheet" href="css/payment.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</head>
+
+<div class="container">
+
+
+    <div id="main-header">
+        <div class="container">
+  
+  
+          <nav id="navbar">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="category.html">products</a></li>
+           
+            </ul>
+          </nav>
+    
+   
+    <div class="row mb-4">
+        <div class="col-lg-8 mx-auto flex">
+            <h1 class="display-6">New Bussiness Europe</h1>
+           
+
+            
+        </div>
+    </div> 
+
+    
+    <div class="row">
+        <div class="col-lg-6 mx-auto">
+            <div class="card ">
+                <div class="card-header">
+                    <div class="bg-white shadow-sm pt-4 pl-2 pr-2 pb-2">
+                        
+                        <ul role="tablist" class="nav bg-light nav-pills rounded nav-fill mb-4">
+                            <li class="nav-item"> <a data-toggle="pill" href="#credit-card" class="nav-link active "> <i class="fas fa-credit-card mr-2"></i> Credit Card </a> </li>
+                            <li class="nav-item"> <a data-toggle="pill" href="#paypal" class="nav-link "> <i class="fab fa-paypal mr-2"></i> Paypal </a> </li>
+                            <li class="nav-item"> <a data-toggle="pill" href="#net-banking" class="nav-link "> <i class="fas fa-mobile-alt mr-2"></i> Net Banking </a> </li>
+                           
+                        </ul>
+                    </div> 
+                    
+                    <div class="tab-content">
+                        <div id="credit-card" class="tab-pane fade show active pt-3">
+                            <form role="form" onsubmit="event.preventDefault()">
+                                <div class="form-group"> <label for="username">
+                                        <h6>Card Owner</h6>
+                                    </label> <input type="text" name="username" placeholder="Card Owner Name" required class="form-control "> </div>
+                                <div class="form-group"> <label for="cardNumber">
+                                        <h6>Card number</h6>
+                                    </label>
+                                    <div class="input-group"> <input type="text" name="cardNumber" placeholder="Valid card number" class="form-control " required>
+                                        <div class="input-group-append"> <span class="input-group-text text-muted"> <i class="fab fa-cc-visa mx-1"></i> <i class="fab fa-cc-mastercard mx-1"></i> <i class="fab fa-cc-amex mx-1"></i> </span> </div>
+                                    </div>
+                                </div>
+                               
+                                <div class="card-footer"> <button type="button" class="subscribe btn btn-primary btn-block shadow-sm"> Confirm Payment </button>
+                            </form>
+                        </div>
+                    </div> 
+                   
+                    <div id="paypal" class="tab-pane fade pt-3">
+                        <h6 class="pb-2">Select your paypal account type</h6>
+                        <div class="form-group "> <label class="radio-inline"> <input type="radio" name="optradio" checked> Domestic </label> <label class="radio-inline"> <input type="radio" name="optradio" class="ml-5">International </label></div>
+                        <p> <button type="button" class="btn btn-primary "><i class="fab fa-paypal mr-2"></i> Log into my Paypal</button> </p>
+ 
+                    </div> 
+                   
+                    <div id="net-banking" class="tab-pane fade pt-3">
+                        <div class="form-group "> <label for="Select Your Bank">
+                                <h6>Select your Bank</h6>
+                            </label> <select class="form-control" id="ccmonth">
+                                <option value="" selected disabled>--Please select your Bank--</option>
+                                <option>Bank of europe</option>
+                                <option>Euro bond</option>
+                                <option>Bank 3</option>
+                                <option>Bank 4</option>
+                               
+                               
+                            </select> </div>
+                        <div class="form-group">
+                            <p> <button type="button" class="btn btn-primary "><i class="fas fa-mobile-alt mr-2"></i> Proceed Payment</button> </p>
+                        </div>
+                        <p class="text-muted">Note: After clicking on the button, you will be directed to a secure gateway for payment. </p>
+                    </div> 
+    
+                </div>
+            </div>
+        </div>
+    </div> 
+    <div class="card" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title">PAYMENT</h5>
+    <h6 class="card-subtitle mb-2">PAYMENT DETAILS </h6>
+   
+    <a href="#" class="card-link">Call </a>
+    <a href="#" class="card-link">Email us</a>
+    <a href="#" class="card-link">More details </a>
+  </div>
+</div>
+<form>
+   
+    <div class="form-outline mb-4">
+      <input type="text" id="form4Example1" class="form-control" />
+      <label class="form-label" for="form4Example1">Name</label>
+    </div>
+  
+    <div class="form-outline mb-4">
+      <input type="email" id="form4Example2" class="form-control" />
+      <label class="form-label" for="form4Example2">Email address</label>
+    </div>
+  
+  
+    <div class="form-outline mb-4">
+      <textarea class="form-control" id="form4Example3" rows="4"></textarea>
+      <label class="form-label" for="form4Example3">Message us</label>
+    </div>
+  
+   
+    <div class="form-check d-flex justify-content-center mb-4">
+      <input class="form-check-input me-2" type="checkbox" value="" id="form4Example4"checked/>
+      <label class="form-check-label" for="form4Example4">
+        keep a copy
+      </label>
+    </div>
+  
+
+    <button type="submit" class="btn btn-primary btn-block mb-4">
+      Send
+    </button>
+  </form>
+    <div class="container">
+        <div class="footer">
+            <p>Welcome to New Bussiness Europe</p>
+    </div>
+    </div>
+</body>
+</html>

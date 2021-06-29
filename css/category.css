@@ -39,14 +39,14 @@ text-align: center;
 }
 
 .caption {
-  float: center;
-padding: 40px;
+float: center;
+padding: 15px;
 margin: 5px;
-width: 350px;
+
   height: 150px;
 border: 5px solid #cccccc;
 text-align: center;
-font-size: 0.8em;
+
 font-style: italic;
 border-top: lemonchiffon;
   border-radius: 20pt;

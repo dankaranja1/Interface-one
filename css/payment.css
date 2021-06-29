@@ -1,0 +1,101 @@
+body{
+    background-color:#fff;
+    color:#00f;
+    font-family:"Raleway", Helvetica, sans-serif;
+    margin:0;
+  }
+  
+   .container{
+     width:80%;
+     margin: auto;
+     overflow: hidden;
+   }
+  
+  .clr{
+    clear:none;
+  }
+  
+   #logo{
+     border:3px solid #00f;
+     padding-left: 10px;
+     padding-right: 10px;
+     float:left
+   }
+  
+   #navbar{
+     margin:0;
+     float:right;
+   }
+  
+   #navbar ul{
+     padding:0;
+     list-style:none;
+   }
+  
+   #navbar li{
+     display:inline-block;
+   }
+  
+   #navbar a{
+     color:#00f;
+     text-decoration:none;
+     font-size:18px;
+     padding-right:15px;
+   }
+
+
+
+body {
+    background-color: brown;
+}
+
+.rounded {
+    border-radius: 1rem
+}
+
+.nav-pills .nav-link {
+    color: rgb(27, 146, 33)
+    
+}
+
+.nav-pills .nav-link.active {
+    color: rgb(63, 53, 11)
+    
+}
+
+input[type="radio"] {
+    margin-right: 5px
+}
+.form-group{
+    background-color: rgb(27, 105, 44);
+}
+.input-group{
+    background-color: chartreuse;
+}
+.form-group,h6{
+    background-color: rgb(116, 113, 114);
+}
+.bold {
+    font-weight: bold
+}
+.footer{
+    background-color: rgb(35, 183, 84);
+
+
+}
+.card-body{
+    background-color: darkturquoise;
+}
+.card-body,card-text{
+    margin-left: auto;
+    margin-right: auto;
+    width: em
+}
+.footer,p{
+    
+    font-size: 30px;
+    font-family: fantasy;
+    text-align: center;
+    width: 1170px;
+    left: 40px;
+}
